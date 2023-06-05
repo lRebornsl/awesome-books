@@ -1,5 +1,5 @@
 import { BookCollection } from './modules/book-collection.js';
-import { DateTime } from "./modules/luxon.js";
+import { DateTime } from './modules/luxon.js';
 
 // Features of book collection
 
@@ -11,7 +11,7 @@ bookCollection.render();
 const doDate = () => {
   const currentDate = document.querySelector('.date');
   currentDate.innerHTML = DateTime.now().toFormat("LLL dd yyyy', 'HH':'mm':'ss a");
-}
+};
 
 setInterval(doDate, 1000);
 
