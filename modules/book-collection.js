@@ -1,7 +1,6 @@
-/* eslint-disable import/prefer-default-export */
-import { Book } from './books.js';
+import Book from './books.js';
 
-export class BookCollection {
+class BookCollection {
   constructor() {
     this.books = JSON.parse(localStorage.getItem('bookCollection')) || [];
     this.bookList = document.querySelector('.book-cont');
@@ -60,3 +59,5 @@ export class BookCollection {
     this.render();
   }
 }
+
+module.exports = BookCollection;

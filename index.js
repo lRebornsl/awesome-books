@@ -1,4 +1,4 @@
-import { BookCollection } from './modules/book-collection.js';
+import BookCollection from './modules/book-collection.js';
 import { DateTime } from './modules/luxon.js';
 
 // Features of book collection
