@@ -60,4 +60,4 @@ class BookCollection {
   }
 }
 
-module.exports = BookCollection;
+export default BookCollection;
